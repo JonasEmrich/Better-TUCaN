@@ -1,0 +1,459 @@
+h1{
+	font-size:15px;
+}
+h2{
+	font-size:13px;
+}
+#sip h3 {
+	font-size:12px;
+}
+#contentSpacer_IE{
+	padding:0px;
+	margin:0px;
+	margin-top:5px;
+}
+#pageHeadRight,#pageHeadTop,  #pageHeadBottom_1, #pageHeadBottom_2 {
+	display:none;
+
+}
+#pageHeadCenter{
+	height:0px;
+
+}
+
+
+
+#pageHeadCenter{
+	border:0px solid green;
+	overflow:visible;
+	position:absolute;
+	left:0px;
+	width:100%;
+	min-width: 1004px;
+	/*	height:10px;*/
+}
+/*#pageHeadLeft{
+	float:right;
+	position:relative;
+	right:0px;
+	height:100Px;
+	width:100px;
+}*/
+
+#pageHeadLeft{
+	float:right;
+	position:relative;
+	padding-right:25px;
+	padding-top:45px;
+}
+#logIn_btn,#pageHeadSwitchLang a{
+	position:relative;
+	z-index:200;
+
+}
+
+
+#pageLeft{
+	width: 182px;
+}
+#pageContainer{
+	margin-left:20px;
+	margin-right:20px;
+	min-width:921px;
+
+	border-left:3px solid #E6E6E6;
+	border-right:3px solid #E6E6E6;
+}
+.img.img_LangEnglish {
+	background-image:none;
+	padding-left:10px;
+	border-left:1px solid #000000;
+	float:right;
+}
+.img.img_LangGerman {
+	background-image:none;
+	padding-left:10px;
+	float:right;
+	border-left:1px solid #000000 ;
+}
+#pageHead{
+	padding-bottom:2px;
+	border-bottom:1px solid #000000;
+	margin-bottom:32px;
+}
+
+#pageHeadBottom_3{
+	border-bottom:14px solid #b1bd00;
+	height:24px;
+}
+#cn_loginForm{
+	width:auto;
+}
+#cn_loginForm fieldset{
+	padding-top:3px;
+
+}
+#cn_loginForm fieldset input{
+	border:1px solid #b1bd00;
+}
+
+div.invAnchor a.invAnchor {
+	text-decoration:none;
+}
+
+
+/*---------------- POSITIONING AND BEHAVIOUR OF NAVIGATION -----------*/
+#pageTopNavi{
+	position:absolute;
+	left:43Px;
+	top:47px; /*--------- Top Space Of Navigation -----------*/
+	width:940px;
+	overflow:visible;
+	background-image:url(/gfx/tuda/tucan_logo.gif);
+	background-repeat:no-repeat;
+	height:84px;		z-index:40;
+}
+#pageTopNavi ul.nav.depth_1.linkItemContainer{
+	padding-left:191px; /*-------------------- LEFT OFFSET OF TOP NAVI ------------------ orig: 191px*/
+}
+#pageTopNavi ul.nav li a.depth_1{
+	padding-top:0px; /*----------------- SPACE FOR NO(![0]) ICONS FIRST LEVEL-----------------*/
+	background-image:none!important;
+	border-right:2px solid #000000;
+	font-weight:bold;
+	padding-left:8px;
+	padding-right:8px;
+}
+#pageTopNavi ul.nav li a{
+	text-decoration:none !important;
+}
+#pageTopNavi ul.nav.depth_2{
+	border-top:2px solid #b1bd00;
+	padding-bottom:1px;
+	border-bottom:1px solid #e5e5e5;
+	position:absolute;
+	top:84px; /*--------- top offset left navi -----------*/
+}
+#pageTopNavi ul.nav.depth_2 li.depth_2{
+	border-top:1px solid #ffffff;
+	background-color:#f4f5d0;
+}
+#pageTopNavi a.depth_2.navLink.branchLink{
+	padding-right:8px;
+}
+#pageTopNavi ul.nav li.depth_1 ul.nav.depth_2{ /* navi links unter tucan-logo */
+	width:182px; /*--------- width of left navi -----------*/
+	overflow:hidden;
+}
+#pageTopNavi li.depth_2 a.navLink{
+	background-position:right  6px!important;
+}
+#pageTopNavi li.depth_2 a.navLink:hover{
+	background-color:#ffffff ;
+}
+#pageTopNavi a.depth_2.navLink.branchLink:hover{
+	background-image:url(../../gfx/tuda/icons/untermenue.gif)!important;
+	background-position:176px  4px;
+	background-color:#ffffff ;
+}
+
+#pageTopNavi ul.nav.depth_2 li{
+	background-color:#ffffff; /*--------- top offset left navi -----------*/
+}
+#pageTopNavi ul.nav li.depth_2 a{ /*------ SIZE OF LINK & STOP FLOATING FROM FIRST LEVEL ---------*/
+	padding:5px;
+	padding-left:8px;
+	font-weight:bold;
+}
+#pageContent{
+	padding-top:30px;
+	padding-left:15px;
+	width:78%;
+	border-left:0;
+}
+#pageContent a{
+	text-decoration:underline;
+}
+#pageContentTop{
+	padding:0;
+	height:16px;
+}
+#loginData{
+	position:absolute;
+	top:6px;
+	right:200px;
+	margin:0;
+}
+#loginData span{
+	margin-right:4px;
+}
+#loginData span.colon{
+	margin-right:4px;
+}
+/* g_links */
+
+button.btcontrol, button.arrow, .arrow, .img{
+	background-image:url(../../gfx/tuda/icons/arrowRight.png);
+	text-decoration:underline;
+}
+.skipLeft, .skipRight {
+	text-decoration:none !important;
+}
+.img.img_arrowLeft{
+	background-image:url(../../gfx/tuda/icons/arrowLeft.png);
+}
+.img.img_arrowRight{
+	background-image:url(../../gfx/tuda/icons/arrowRight.png);
+}
+.img_arrowLeftRed{
+	background-image:url(../../gfx/tuda/icons/arrowLeft.png);
+}
+.img.img_arrowRed{
+	background-image:url(../../gfx/tuda/icons/arrowRight.png);
+}
+.img.img_arrowEdit{
+	background-image:url(../../gfx/tuda/icons/arrowEdit.gif);
+}
+.img.img_arrowDelete{
+	background-image:url(../../gfx/tuda/icons/arrowDelete.gif);
+}
+.img.img_arrowSubmit{
+	background-image:url(../../gfx/tuda/icons/anmelden.png);
+	padding-left:16px;
+}
+.img.img_arrowLogout{
+	background-image:url(../../gfx/tuda/icons/arrowRight.png);
+}
+.img.img_arrowImprint{
+	background-image:url(../../gfx/tuda/icons/impressum.png);
+}
+.img.img_arrowContact{
+	background-image:url(../../gfx/tuda/icons/kontakt.png);
+}
+.img.img_arrowEventIcon{
+	background-image:url(../../gfx/tuda/icons/eventIcon.gif);
+}
+.arrow_skipBtn a.link{
+	margin-right:9px!important;
+}
+
+/* ------------------- MARK-EVENT-ICON ------------*/
+
+.eventTitle.img.img_arrowEventIcon{
+	background-position:left 0px;
+	padding-left:16px;
+	line-height:13px;
+}
+h1.img.eventTitle.img_arrowEventIcon{
+	background-position:left 1px;
+	padding-left:16px;
+	line-height:100%;
+}
+span.img.eventTitle.img_arrowEventIcon{
+	cursor:default;
+}
+.unfoldbutton.img{
+	background-position:6px 6px;
+}
+.unfoldbutton.img.img_arrowCollapse{
+	background-image:url(../../gfx/tuda/icons/minus.png);
+}
+.unfoldbutton.img.img_arrowExpand{
+	background-image:url(../../gfx/tuda/icons/plus.png);
+}
+.img.img_arrowExpand{
+	background-image:url(../../gfx/tuda/icons/plus.png);
+	padding:0 0 0 22px;
+	margin:0 10px 0 0;
+	width:100%;
+}
+.img.img_arrowCollapse{
+	background-image:url(../../gfx/tuda/icons/arrowRight.png);
+	padding:0 0 0 22px;
+	margin:0 10px 0 0;
+	width:100%;
+}
+
+
+/*BEGIN SimpleArrow Icons*/
+.imgMin {
+  height: 16px;
+  width: 16px;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  display: inline-block;
+}
+.imgMin.img_arrowSimpleTop {
+  background-position: 0px 0px;
+  background-image: url("../../gfx/tuda/icons/arrowSimpleImageSet.jpg");
+}
+.imgMin.img_arrowSimpleTop:hover {
+  background-image: url("../../gfx/tuda/icons/arrowSimpleImageSetHover.jpg");
+}
+.imgMin.img_arrowSimpleRight {
+  background-position: -16px 0px;
+  background-image: url("../../gfx/tuda/icons/arrowSimpleImageSet.jpg");
+}
+.imgMin.img_arrowSimpleRight:hover {
+  background-image: url("../../gfx/tuda/icons/arrowSimpleImageSetHover.jpg");
+}
+.imgMin.img_arrowSimpleBottom {
+  background-position: -32px 0px;
+  background-image: url("../../gfx/tuda/icons/arrowSimpleImageSet.jpg");
+}
+.imgMin.img_arrowSimpleBottom:hover {
+  background-image: url("../../gfx/tuda/icons/arrowSimpleImageSetHover.jpg");
+}
+.imgMin.img_arrowSimpleLeft {
+  background-position: -48px 0px;
+  background-image: url("../../gfx/tuda/icons/arrowSimpleImageSet.jpg");
+}
+.imgMin.img_arrowSimpleLeft:hover {
+  background-image: url("../../gfx/tuda/icons/arrowSimpleImageSetHover.jpg");
+}
+.imgMin.img_arrowSimpleTopDouble {
+  background-position: -64px 0px;
+  background-image: url("../../gfx/tuda/icons/arrowSimpleImageSet.jpg");
+}
+.imgMin.img_arrowSimpleTopDouble:hover {
+  background-image: url("../../gfx/tuda/icons/arrowSimpleImageSetHover.jpg");
+}
+.imgMin.img_arrowSimpleRightDouble {
+  background-position: -80px 0px;
+  background-image: url("../../gfx/tuda/icons/arrowSimpleImageSet.jpg");
+}
+.imgMin.img_arrowSimpleRightDouble:hover {
+  background-image: url("../../gfx/tuda/icons/arrowSimpleImageSetHover.jpg");
+}
+.imgMin.img_arrowSimpleBottomDouble {
+  background-position: -96px 0px;
+  background-image: url("../../gfx/tuda/icons/arrowSimpleImageSet.jpg");
+}
+.imgMin.img_arrowSimpleBottomDouble:hover {
+  background-image: url("../../gfx/tuda/icons/arrowSimpleImageSetHover.jpg");
+}
+.imgMin.img_arrowSimpleLeftDouble {
+  background-position: -112px 0px;
+  background-image: url("../../gfx/tuda/icons/arrowSimpleImageSet.jpg");
+}
+.imgMin.img_arrowSimpleLeftDouble:hover {
+  background-image: url("../../gfx/tuda/icons/arrowSimpleImageSetHover.jpg");
+}
+/*END SimpleArrow Icons*/
+
+
+#pageFoot{
+	border:0px;
+	border-top:3px solid #E6E6E6;
+	background-color:#f1f1f1;
+	width:100%;
+	position:relative;
+	left:-23px;
+	padding-right:43px;
+	height:30px;
+}
+#pageFootControls{
+	padding-left:20Px;
+}
+#pageFootControl_up{
+	background-image:url(../../gfx/tuda/icons/zum_seitenanfang_ie6.gif);
+	padding-left:16px!important;
+	line-height:20px!important;
+	margin-top:-28px;
+	margin-right:-26px;
+}
+#contentlayoutright, .contentlayoutright {
+	width:166px;
+}
+#contentlayoutleft, .contentlayoutleft {
+	width:74%;
+}
+table {
+	background-color:#fff;
+}
+.tbcontrol {
+	background-color:#fff;
+}
+#tbmonthContainer {
+	width:721px !important;
+}
+.tbMonthDay {
+	width:96px;
+}
+#logoutButton {
+	float:right;
+}
+.tbcontrol a {
+	text-decoration:underline;
+}
+#pageFootControls a, .tbcontrol input {
+	text-decoration:underline;
+}
+#pageFootControlsRight a {
+	text-decoration:none;
+}
+.tb input {
+	text-decoration:underline;
+}
+#study, #semester {
+	margin-right:10px;
+}
+#startDate {
+	margin-right:10px;
+}
+.inputFieldLabel b {
+	float:left;
+	margin-right:5px;
+}
+.inputFieldLabel input.arrow {
+	border:none;
+	padding-left:22px;
+}
+#fieldSet_login  input {
+	text-decoration:none;
+}
+#fieldSet_login  input:hover {
+	color:#000;
+	text-decoration:none;
+}
+/*----------------------------- SIP ------------------------------*/
+
+
+/*
+LEGEND study content plan:
+
+sip = Studieninhaltsplan/ study content plan
+tI = treeImage
+chB = checkBox
+tblSip = table study content plan
+stdTtl = studyTitle
+sipDM = tbheadDisplayMode
+lgndCl = legendColor
+lgndTxt = legendText
+tblFtr = tableFooter
+tD02 = tbDataDepth2
+aCA = aCourseArea
+sCA = spanCourseArea
+sG = statusGreen
+sR = statusRed
+sB = statusBlack
+ntsDtls = notesDetails
+
+*/
+
+#sip input.img {
+	text-decoration:underline;
+}
+#sip .pgHd {
+	background-image:url(../../gfx/tuda/icons/zum_seitenanfang_ie6.gif);
+	background-repeat:no-repeat;
+	padding-left:15px;
+	padding-bottom:15px;
+}
+#sip #ntsDtls {
+	border-top:1px solid #D2D2D2;
+}
+#sip .tD2 .aCA, #sip .tD2 a, #sip #tblFtr a {
+	text-decoration:underline;
+}
