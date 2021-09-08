@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'DM Sans';
-  src: url('src/DMSans-Regular.ttf');
+  src: url('../src/DMSans-Regular.ttf');
 }
 
 /* ONLY IN CHROME */
@@ -25,7 +25,7 @@
 @-moz-document url-prefix() {
   @font-face {
     font-family: 'Font Awesome 5';
-    src: url('src/fa-solid-900.woff2');
+    src: url('../src/fa-solid-900.woff2');
   }
 }
 
