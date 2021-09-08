@@ -25,9 +25,7 @@
   ],
   "web_accessible_resources": [
     "src/fa-solid-900.woff2",
-    "src/DMSans-Regular.ttf",
-    "src/TU_Darmstadt_Logo.png",
-    "src/tucan_logo.png"
+    "src/DMSans-Regular.ttf"
   ]
 
 }
