@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "Better TUCaN - DarkMode und Stats for TUCaN",
-  "version": "2.1",
+  "version": "2.2",
   "content_security_policy": "default-src 'self';  script-src 'self' ; object-src 'self'",
   "description": "Inoffizielles Add-On, welches das Design der www.tucan.tu-darmstadt.de Webseite in ein dunkles augenfreundliches Design ändert und Statsistiken bei den Notenspiegeln einfügt.",
 
@@ -13,13 +13,13 @@
   "content_scripts": [
     {
       "matches": ["*://*.tucan.tu-darmstadt.de/*"],
-      "css": ["style.css"],
-      "js": ["jquery.js"],
+      "css": ["css/style.css"],
+      "js": ["js/before_load.js", "js/jquery.js"],
       "run_at": "document_start"
     },
     {
       "matches": ["*://*.tucan.tu-darmstadt.de/*"],
-      "js": ["script.js"],
+      "js": ["js/script.js"],
       "run_at": "document_end"
     }
   ],
