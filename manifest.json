@@ -11,7 +11,6 @@
   },
   "content_security_policy": "default-src 'self';  script-src 'self' ; object-src 'self'",
   "description": "Inoffizielles Add-On, welches das Design der www.tucan.tu-darmstadt.de Webseite in ein dunkles augenfreundliches Design ändert und Statsistiken bei den Notenspiegeln einfügt.",
-  "default_locale": "de",
   "browser_specific_settings": {
     "gecko": {
       "update_url": "https://jonasemrich.de/addon/better-tucan/updates.json"
