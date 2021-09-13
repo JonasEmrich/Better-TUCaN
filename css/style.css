@@ -114,11 +114,20 @@ h3{
  #pageTopNavi ul.nav #link000325 a.link000325, #pageTopNavi ul.nav #link000324 a.link000324{
   background-image: none !important;
 }
-.img:not(#pageFootControl_up, .img.img_arrowLeft, .img.img_arrowRight)::before, .arrow::before{
+.img:not(#pageFootControl_up, .img.img_arrowLeft, .img.img_arrowLeftRed, .img.img_arrowRight)::before, .arrow::before{
     content: "\f054" !important;
     font-family: 'Font Awesome 5' !important;
     font-weight: 900 !important;
     margin:2px !important
+}
+.img.img_arrowLeftRed::before{
+  content: "\f053" !important;
+  font-family: 'Font Awesome 5' !important;
+  font-weight: 900 !important;
+  margin:2px !important;
+}
+.img.img_arrowLeftRed{
+  color: #909545 !important;
 }
 .img.img_arrowLeft::before{
   content: "\f0a8" !important;
