@@ -3,11 +3,11 @@
   "manifest_version": 2,
   "name": "Better TUCaN - DarkMode und Stats for TUCaN",
   "short_name": "Better TUCaN",
-  "version": "2.5",
+  "version": "2.6",
   "author": "Jonas Emrich",
   "developer": {
     "name": "Jonas Emrich",
-    "url": "https://jonasemrich.de"
+    "url": "https://jonasemrich.de/better-tucan-darkmode-und-statistiken-fur-tucan/"
   },
   "content_security_policy": "default-src 'self';  script-src 'self' ; object-src 'self'",
   "description": "Inoffizielles Add-On, welches das Design der www.tucan.tu-darmstadt.de Webseite in ein dunkles augenfreundliches Design ändert und Statsistiken bei den Notenspiegeln einfügt.",
