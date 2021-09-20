@@ -377,3 +377,8 @@ td.appointment a::before{
   min-width: 400px;
   overflow: auto;
 }
+
+
+.detailout a{
+  background-color: transparent !important
+}
