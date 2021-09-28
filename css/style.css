@@ -221,7 +221,7 @@ strong, i{
 }
 
 #pageHeadLeft{
-  padding-top: 65px !important;
+  padding-top: 50px !important;
 }
 .auditRegNodeLink, #refresh_button, .tbcontrol input{
   text-decoration: underline !important;
@@ -379,6 +379,9 @@ td.appointment a::before{
 }
 
 
-.detailout a{
+.detailout a, ul.courseList li.courseListCellHover, ul.courseList li.courseListCellHover{
   background-color: transparent !important
+}
+ul.courseList li.courseListCellHover.numout3{
+  background-color: #3e4f69  !important
 }
