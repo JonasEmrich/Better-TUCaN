@@ -3,7 +3,7 @@
   "manifest_version": 2,
   "name": "Better TUCaN - DarkMode und Stats for TUCaN",
   "short_name": "Better TUCaN",
-  "version": "2.7",
+  "version": "2.9",
   "author": "Jonas Emrich",
   "developer": {
     "name": "Jonas Emrich",
@@ -39,7 +39,9 @@
   ],
   "web_accessible_resources": [
     "src/fa-solid-900.woff2",
-    "src/DMSans-Regular.ttf"
+    "src/DMSans-Regular.ttf",
+    "img/tu-logo.png",
+    "img/tucan-logo.png"
   ]
 
 }
