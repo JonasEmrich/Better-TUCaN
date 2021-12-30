@@ -95,7 +95,7 @@ h3{
   border-color: red !important;
 }
 #pageHead{
-  border-color: transparent !important;
+  border-color: #111827 !important !important;
 }
 #pageHeadBottom_3{
   height: 26px !important;
@@ -384,4 +384,18 @@ td.appointment a::before{
 }
 ul.courseList li.courseListCellHover.numout3{
   background-color: #3e4f69  !important
+}
+
+/* Transparent Images */
+#imagePageHeadLeft{
+  width: 170px;
+}
+
+#pageHeadLeft{
+  padding-right: 40px;
+}
+
+#pageTopNavi{
+  background-image: url(../img/tucan-logo.png);
+  background-size: 120px;
 }

@@ -46,7 +46,7 @@ alert(max());
 }
 */
 
-
+$('#imagePageHeadLeft').attr('src', 'moz-extension://5082454b-5e3d-4147-bab6-c715e76e8fc8/img/tu-logo.png');
 
 
 
