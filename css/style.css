@@ -388,7 +388,12 @@ ul.courseList li.courseListCellHover.numout3{
 
 /* Transparent Images */
 #imagePageHeadLeft{
-  width: 170px;
+  background: url(../img/tu-logo.png);
+  width: 0px;
+  height: 0px;
+  padding-left: 170px;
+  padding-top: 64px;
+  background-size: cover;
 }
 
 #pageHeadLeft{
@@ -398,4 +403,12 @@ ul.courseList li.courseListCellHover.numout3{
 #pageTopNavi{
   background-image: url(../img/tucan-logo.png);
   background-size: 120px;
+}
+#logo{
+  background: url(../img/tu-logo.png);
+  width: 0px;
+  height: 0px;
+  padding-left: 202px;
+  padding-top: 76px;
+  background-size: cover;
 }
