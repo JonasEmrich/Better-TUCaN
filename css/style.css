@@ -412,3 +412,13 @@ ul.courseList li.courseListCellHover.numout3{
   padding-top: 76px;
   background-size: cover;
 }
+select, option{
+	background-color: #111827 !important
+  color: white !important
+}
+
+.credit{
+  font-weight: normal;
+  text-align: right;
+  color: gray !important;
+}
