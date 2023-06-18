@@ -1,6 +1,5 @@
 window.onload = function() {
-var src = "$('#field_user').attr('placeholder', 'TU-ID');"+
-          "$('#field_pass').attr('placeholder', 'Passwort');"+
+var src = "$('#field_user').attr('placeholder', 'TU-ID');"+ //"$('#field_pass').attr('placeholder', 'Passwort');"+
           "document.getElementById('field_pass').type = 'password';"+
           "$('#inhalt p[style*=\"color: darkred\"]').css('color', 'red');";
 
