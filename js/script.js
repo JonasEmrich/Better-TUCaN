@@ -73,9 +73,12 @@ if(url.includes('PRGNAME=GRADEOVERVIEW')){
   var max = max(students);
   var sum = sum(students);
   var durchfallquote = Math.round(students[students.length-1]/sum*100*100)/100;
-  var bestanden = 100-durchfallquote;
+  var bestanden = Math.round((100-durchfallquote)*100)/100;
 
   if(!(isNaN(max) || isNaN(sum) || isNaN(durchfallquote))){
+
+      $('div.tbhead').html("Made with BetterTUCaN Add-On by Jonas Emrich");
+      $('div.tbhead').addClass("credit");
 
       // Bestanden - Durchgefallen Progress Bar
       $('#pageContentPopUp > div.tb').prepend('<div class="bar-wrapper"><span class="green"><b>Bestanden</b> <br>'+bestanden+'%</span><strong class="bar-label"></strong><progress class="pbar" max="100" value="'+bestanden+'"> '+bestanden+'% / '+durchfallquote+'% </progress><span><b>Durchgefallen</b> <br> '+durchfallquote+'%</span></div>');
@@ -85,9 +88,10 @@ if(url.includes('PRGNAME=GRADEOVERVIEW')){
 
       for (var i = 0; i < students.length; i++){
         var height = students[i]/max*100;
+        var percentage = Math.round(students[i]/sum*100*10)/10;
         if(height == 0)
           height += 1;
-        $('#grade-chart').append('<li><div style="height:'+  height +'%" title="'+labels[i]+'" value="'+students[i]+'"><span class="chart-value">'+students[i]+'</span></div></li>');
+        $('#grade-chart').append('<li><div style="height:'+  height +'%" title="'+labels[i]+'" value="'+percentage+'"><span class="chart-value">'+percentage+'%</span></div></li>');
       }
   }
 
